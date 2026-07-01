@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  baseURL: 'https://cloud-spend-backend.onrender.com'
 });
 
 export const calculateCost = async (data) => {
